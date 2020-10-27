@@ -1,0 +1,204 @@
+#CREATE WITH CODE COURSE
+
+##New Functionality
+- Project set up with assets imported
+- Vehicle positioned at the start of the road
+- Obstacle positioned in front of the vehicle
+- Camera positioned behind vehicle
+- Vehicle moves down the road at a constant speed
+- When the vehicle collides with obstacles, they fly into the air
+- Camera follows the vehicle down the road at a set offset distance
+- When the player presses the up/down arrows, the vehicle will move forward and backward
+- When the player presses the left/right arrows, the vehicle turns 
+- The player can move left and right based on the user’s left and right key presses
+- The player will not be able to leave the play area on either side
+- The player can press the Spacebar to launch a projectile prefab,
+- Projectile and Animals are removed from the scene if they leave the screen
+- The player can press the S to spawn an animal
+- Animal selection and spawn location are randomized
+- Camera projection (perspective/orthographic) selected
+- Animals spawn on a timed interval and walk down the screen 
+- When animals get past the player, it triggers a “Game Over” message
+- If a projectile collides with an animal, both objects are removed
+- New project for your Personal Project
+- Camera positioned and rotated based on project type
+- All key objects in scene with unique materials
+- Player jumps on spacebar press
+- Player cannot double-jump
+- Obstacles and Background move left
+- Obstacles spawn on intervals
+- Background repeats seamlessly
+- Background stops when player collides with obstacle
+- Obstacle spawning stops when player collides with obstacle
+- Obstacles are destroyed off-screen
+- The player starts the scene with a fast-paced running animation
+- When the player jumps, there is a jumping animation
+- When the player crashes, the player falls over
+- Music plays during the game
+- Particle effects at the player’s feet when they run
+- Sound effects and explosion when the player hits an obstacle
+- Player can move based on user input
+- Player movement is constrained to suit the requirements of the game
+- Camera rotates around the island based on horizontal input
+- Player rolls in direction of camera based on vertical input
+- Enemy spawns at random location on the island
+- Enemy follows the player around 
+- Spheres bounce off of each other 
+- When the player collects a powerup, a visual indicator appears
+- When the player collides with an enemy while they have the powerup, the enemy goes flying
+- After a certain amount of time, the powerup ability and indicator disappear
+- Enemies spawn in waves
+- The number of enemies spawned increases after every wave is defeated
+- A new power up spawns with every wave
+- Non-player objects prefabs have basic movement 
+- Objects are destroyed when they leave the screen 
+- Collisions between objects are handled appropriately
+- Objects are spawned at the appropriate locations on time-based intervals
+- Random objects are tossed into the air on intervals
+- Objects are given random speed, position, and torque
+- If you click on an object, it is destroyed
+- There is a UI element for score on the screen
+- The player’s score is tracked and displayed by the score text when hit a target
+- There are particle explosions when the player gets an object
+- A functional Game Over screen with a Restart button
+- When the Restart button is clicked, the game resets
+- Title screen that lets the user start the game
+- Difficulty selection that affects spawn rate
+- Primitive objects replaced with new assets that function the same way
+
+##New Concepts & Skills
+Create a new project
+Import assets 
+Add objects to the scene
+Game vs Scene view
+Project, Hierarchy, Inspector windows
+Navigate 3D space
+Move and Rotate tools
+Customize the layout 
+C# Scripts 
+Start vs Update 
+Comments
+Methods 
+Pass parameters
+Time.deltaTime
+Multiply (*) operator
+Components 
+Collider and RigidBody
+Variables 
+Data types 
+Access Modifiers
+Declare and initialize variables
+Empty objects 
+Get user input
+Translate vs Rotate
+Adjust object scale
+If-statements
+Greater/Less than operators
+Create Prefabs
+Override Prefabs
+Test for Key presses
+Instantiate objects
+Destroy objects 
+Else-if statements
+Spawn Manager
+Arrays
+Keycodes
+Random generation
+Local vs Global variables
+Perspective vs Isometric projections
+Create custom methods/functions
+InvokeRepeating() to repeat code
+Colliders and Triggers 
+Override functions
+Log Debug messages to console
+Primitives
+Create new materials
+Export Unity packages
+GetComponent
+ForceMode.Impulse
+Physics.Gravity
+Rigidbody constraints
+Rigidbody variables
+Booleans
+Multiply/Assign (“*) Operator
+And (&&) Operator
+OnCollisionEnter()
+Repeat background
+Get Collider width
+Script communication
+Equal to (==) operator
+Tags
+CompareTag()
+Animation Controllers
+Animation States, Layers, and Transitions
+Animation parameters
+Animation programming
+SetTrigger(), SetBool(), SetInt()
+Not (!) operator
+Particle systems 
+Child object positioning
+Audio clips and Audio sources 
+Play and stop sound effects
+Program in C# independently
+Troubleshoot issues independently
+Texture Wraps
+Camera as child object
+Global vs Local coordinates
+Get direction of other object
+Physics Materials
+Defining vectors in 3D space
+Normalizing values
+Methods with return values
+Debug concatenation
+Local component variables 
+IEnumerators and WaitForSeconds()
+Coroutines
+SetActive(true/false)
+For-loops
+Increment (++) operator
+Custom methods with parameters
+FindObjectsOfType
+Creating basic gameplay for a project independently
+2D View
+AddTorque 
+Game Manager
+Lists
+While Loops
+Mouse Events
+TextMeshPro 
+Canvas
+Anchor Points
+Import Libraries
+Custom methods with parameters
+Calling methods from other scripts
+Game states 
+Buttons
+On Click events
+Scene management Library
+UI Library
+Booleans to control game states
+AddListener() 
+Passing parameters between scripts
+Divide/Assign (/=) operator
+Grouping child objects
+Art workflow
+High vs. Low Poly
+Asset Store
+Nested Prefabs
+Material properties
+Optimization
+Serialized Fields
+readonly / const / static / protected 
+Event Functions
+FixedUpdate() vs. Update() vs. LateUpdate()
+Awake() vs. Start()
+Object Pooling
+Searching on Unity Answers, Forum, Scripting API
+Troubleshooting to resolve bugs
+AddRelativeForce, Center of Mass, RoundToInt
+Modulus/Remainder (%) operator
+Looping through lists
+Custom methods with bool return
+Installing export modules 
+Building for Mac/PC
+Building for WebGL/HTML
